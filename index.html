@@ -3,80 +3,72 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Academic homepage of Your Name: research, publications, scholarships, and academic service.">
-  <title>Your Name · Academic Homepage</title>
+  <meta name="description" content="Academic homepage of Dongsoo Shin, PhD student at Seoul National University.">
+  <title>Dongsoo Shin · Academic Homepage</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <a class="wordmark" href="#about">Your Name<span aria-hidden="true">.</span></a>
     <nav aria-label="Main navigation">
       <a href="#publications">Publications</a>
-      <a href="#scholarships">Scholarships</a>
-      <a href="#service">Service</a>
     </nav>
   </header>
   <main id="main">
     <section class="intro" id="about" aria-labelledby="name">
       <div class="portrait">
-        <!-- Replace this placeholder with:
-        <img src="assets/profile.jpg" alt="Portrait of Your Name" width="480" height="600">
-        -->
-        <div class="portrait-placeholder"><span aria-hidden="true">YN</span><small>Your photo here</small></div>
+        <img src="assets/profile.jpeg" alt="Portrait of Dongsoo Shin" width="480" height="640">
       </div>
       <div class="intro-copy">
-        <p class="eyebrow">Academic homepage</p>
-        <h1 id="name">Your Name</h1>
-        <p class="affiliation">Your position · Your institution</p>
-        <p class="bio">Introduce yourself here in two or three sentences. Describe your current role, the questions you study, and what interests you about your research.</p>
-        <p class="bio">You can also mention your research group, advisor, or previous education.</p>
-        <!-- Add real links here, for example:
-        <a href="mailto:you@example.com">Email</a>
-        <a href="https://scholar.google.com/citations?user=YOUR_ID">Google Scholar</a>
-        <a href="assets/cv.pdf">CV</a>
-        -->
+        <h1 id="name">Dongsoo Shin</h1>
+        <p class="affiliation">dongsoo [at] snu [dot] ac [dot] kr</p>
+        <p class="bio">I am a PhD student in the Graduate School of Data Science (GSDS) at <a href="https://en.snu.ac.kr" target="_blank" rel="noopener noreferrer">Seoul National University (SNU)</a>. I am grateful to be advised by Professor <a href="http://www.joonseok.net" target="_blank" rel="noopener noreferrer">Joonseok Lee</a> at the <a href="https://vip.snu.ac.kr" target="_blank" rel="noopener noreferrer">VIP Lab</a>. I work on diffusion and flow models, with a focus on making their training and generation more efficient.</p>
+        <div class="profile-links" aria-label="Profile links">
+          <a href="https://www.linkedin.com/in/dongsoo-shin/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <span class="link-separator" aria-hidden="true">·</span>
+          <a href="assets/cv.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+        </div>
       </div>
     </section>
 
-    <!-- All entries below are placeholders. Duplicate an entry to add more. -->
     <section class="content-section" id="publications" aria-labelledby="publications-title">
-      <div class="section-heading"><h2 id="publications-title">Publications</h2><span>Research &amp; writing</span></div>
+      <div class="section-heading"><h2 id="publications-title">Publications</h2></div>
       <ol class="publication-list">
         <li class="publication">
-          <p class="entry-year">Year</p>
-          <div><h3>Publication title goes here</h3>
-            <p class="authors"><strong>Your Name</strong>, Coauthor Name, Coauthor Name</p>
-            <p class="venue">Conference or journal name, Year</p>
-            <!-- Add links to real resources: <a href="https://...">Paper</a> -->
+          <p class="entry-year">2026</p>
+          <div class="paper-thumbnail"><img src="assets/eam.png" alt="Efficient Adjoint Matching paper thumbnail"></div>
+          <div class="publication-details">
+            <h3><a href="https://arxiv.org/abs/2605.11480">Efficient Adjoint Matching for Fine-tuning Diffusion Models</a></h3>
+            <p class="authors">Jeongwoo Shin<sup>*</sup>, <strong>Dongsoo Shin<sup>*</sup></strong>, Yuchen Zhu, Wei Guo, Yongxin Chen, Joonseok Lee, Jaewoong Choi, Jaemoo Choi</p>
+            <p class="venue"><strong>NeurIPS 2026</strong><span class="distinction"> · Spotlight</span></p>
+            <p class="paper-links"><a href="https://arxiv.org/abs/2605.11480" target="_blank" rel="noopener noreferrer">arXiv</a><span aria-hidden="true"> · </span><a href="https://arxiv.org/pdf/2605.11480" target="_blank" rel="noopener noreferrer">PDF</a></p>
+            <p class="author-note"><sup>*</sup> Equal contribution</p>
           </div>
         </li>
         <li class="publication">
-          <p class="entry-year">Year</p>
-          <div><h3>Another publication title goes here</h3>
-            <p class="authors">Coauthor Name, <strong>Your Name</strong>, Coauthor Name</p>
-            <p class="venue">Conference or journal name, Year</p>
+          <p class="entry-year">2026</p>
+          <div class="paper-thumbnail"><img src="assets/multisubject.png" alt="Preserving Compositionality paper thumbnail"></div>
+          <div class="publication-details">
+            <h3><a href="https://proceedings.mlr.press/v337/lee26f.html">Preserving Compositionality for Robust Multi-Subject Personalization in Text-to-Image Generation</a></h3>
+            <p class="authors">Sangho Lee, Eugene Baek, Suho Ryu, <strong>Dongsoo Shin</strong>, Joonseok Lee</p>
+            <p class="venue"><strong>UAI 2026</strong></p>
+            <p class="paper-links"><a href="https://proceedings.mlr.press/v337/lee26f.html" target="_blank" rel="noopener noreferrer">PMLR</a></p>
+          </div>
+        </li>
+        <li class="publication">
+          <p class="entry-year">2025</p>
+          <div class="paper-thumbnail"><img src="assets/hatie.png" alt="HATIE paper thumbnail"></div>
+          <div class="publication-details">
+            <h3><a href="https://arxiv.org/abs/2505.00502">Towards Scalable Human-aligned Benchmark for Text-guided Image Editing</a></h3>
+            <p class="authors">Suho Ryu, Kihyun Kim, Eugene Baek, <strong>Dongsoo Shin</strong>, Joonseok Lee</p>
+            <p class="venue"><strong>CVPR 2025</strong><span class="distinction"> · Highlight</span></p>
+            <p class="paper-links"><a href="https://arxiv.org/abs/2505.00502" target="_blank" rel="noopener noreferrer">arXiv</a><span aria-hidden="true"> · </span><a href="https://arxiv.org/pdf/2505.00502" target="_blank" rel="noopener noreferrer">PDF</a></p>
           </div>
         </li>
       </ol>
     </section>
 
-    <section class="content-section" id="scholarships" aria-labelledby="scholarships-title">
-      <div class="section-heading"><h2 id="scholarships-title">Scholarships</h2><span>Support &amp; recognition</span></div>
-      <ul class="record-list">
-        <li class="record"><p class="entry-year">Year–Year</p><div><h3>Scholarship name</h3><p>Awarding institution · Optional brief description</p></div></li>
-        <li class="record"><p class="entry-year">Year</p><div><h3>Scholarship name</h3><p>Awarding institution</p></div></li>
-      </ul>
-    </section>
-
-    <section class="content-section" id="service" aria-labelledby="service-title">
-      <div class="section-heading"><h2 id="service-title">Academic Service</h2><span>Community contributions</span></div>
-      <ul class="record-list">
-        <li class="record"><p class="entry-year">Year</p><div><h3>Reviewer</h3><p>Conference or journal names</p></div></li>
-        <li class="record"><p class="entry-year">Year</p><div><h3>Service role</h3><p>Organization or event name</p></div></li>
-      </ul>
-    </section>
   </main>
-  <footer><p>© Your Name</p><a href="#about">Back to top <span aria-hidden="true">↑</span></a></footer>
+  <footer><p>© Dongsoo Shin</p><a href="#about">Back to top <span aria-hidden="true">↑</span></a></footer>
 </body>
 </html>
